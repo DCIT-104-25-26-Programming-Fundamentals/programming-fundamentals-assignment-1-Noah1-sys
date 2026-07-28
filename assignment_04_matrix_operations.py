@@ -60,7 +60,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-# Function to read a matrix
 
 def read_matrix(rows, cols):
 
@@ -80,7 +79,7 @@ def read_matrix(rows, cols):
 
     return matrix
 
-# Function to display a matrix
+
 
 def display_matrix(matrix):
 
@@ -92,7 +91,6 @@ def display_matrix(matrix):
 
         print()
 
-# PART A: Transpose a matrix
 
 def transpose_matrix(matrix):
 
@@ -114,7 +112,6 @@ def transpose_matrix(matrix):
 
     return result
 
-# PART B: Add two matrices
 
 def add_matrices(matrix1, matrix2):
 
@@ -136,7 +133,6 @@ def add_matrices(matrix1, matrix2):
 
     return result
 
-# PART C: Multiply two matrices
 
 def multiply_matrices(matrixA, matrixB):
 
@@ -166,15 +162,11 @@ def multiply_matrices(matrixA, matrixB):
 
     return result
 
-# Main program
+#
 
 def main():
 
-    # -----------------------------
-
-    # PART A: TRANSPOSE
-
-    # -----------------------------
+    
 
     print("\n===== PART A: TRANSPOSE MATRIX =====")
 
@@ -196,11 +188,7 @@ def main():
 
     display_matrix(transposed)
 
-    # -----------------------------
 
-    # PART B: ADDITION
-
-    # -----------------------------
 
     print("\n===== PART B: ADD TWO MATRICES =====")
 
@@ -222,11 +210,6 @@ def main():
 
     display_matrix(added)
 
-    # -----------------------------
-
-    # PART C: MULTIPLICATION
-
-    # -----------------------------
 
     print("\n===== PART C: MATRIX MULTIPLICATION =====")
 
@@ -260,6 +243,5 @@ def main():
 
     display_matrix(multiplied)
 
-# Run program
 
 main()

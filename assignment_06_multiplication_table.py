@@ -55,7 +55,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-# PART A: Generating a single multiplication table
 
 def multiplication_table(number):
 
@@ -68,7 +67,6 @@ def multiplication_table(number):
         print(f"{number}  x  {i}  =  {result}")
 
 
-# PART B: Generating tables from 1 to N
 
 def tables_from_one_to_n(n):
 
@@ -91,11 +89,9 @@ def tables_from_one_to_n(n):
         print("---------------------------")
 
 
-# Main Program
 
 def main():
 
-    # PART A
 
     number = int(input("Enter a number for the multiplication table: "))
 
@@ -103,12 +99,10 @@ def main():
 
     print()
 
-    # PART B
 
     n = int(input("Enter N to generate tables from 1 to N: "))
 
     tables_from_one_to_n(n)
 
-# Run the program
 
 main()

@@ -115,9 +115,6 @@ students = [
 ]
 
 
-# -------------------------------------------------
-# Function to calculate average score
-# -------------------------------------------------
 
 def calculate_average(scores):
 
@@ -132,9 +129,6 @@ def calculate_average(scores):
 
 
 
-# -------------------------------------------------
-# Function to add a student
-# -------------------------------------------------
 
 def add_student():
 
@@ -171,11 +165,6 @@ def add_student():
     print(f'Student "{name}" added successfully.')
 
 
-
-
-# -------------------------------------------------
-# Function to display all students
-# -------------------------------------------------
 
 def display_students():
 
@@ -226,10 +215,6 @@ def display_students():
 
 
 
-# -------------------------------------------------
-# Function to calculate average for a specific student
-# -------------------------------------------------
-
 def student_average():
 
     search_id = int(input("Enter student ID: "))
@@ -257,10 +242,6 @@ def student_average():
 
 
 
-# -------------------------------------------------
-# Function to display menu
-# -------------------------------------------------
-
 def show_menu():
 
     print()
@@ -280,11 +261,6 @@ def show_menu():
     print("4. Quit")
 
 
-
-
-# -------------------------------------------------
-# Main program
-# -------------------------------------------------
 
 def main():
 
@@ -329,8 +305,5 @@ def main():
             print("Invalid choice. Please select between 1 and 4.")
 
 
-
-
-# Run the program
 
 main()

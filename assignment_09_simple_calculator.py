@@ -74,19 +74,16 @@ def add(a, b):
 
     return a + b
 
-# Function for subtraction
 
 def subtract(a, b):
 
     return a - b
 
-# Function for multiplication
 
 def multiply(a, b):
 
     return a * b
 
-# Function for division
 
 def divide(a, b):
 
@@ -96,7 +93,6 @@ def divide(a, b):
 
     return round(a / b, 2)
 
-# Function for modulus
 
 def modulus(a, b):
 
@@ -106,13 +102,11 @@ def modulus(a, b):
 
     return a % b
 
-# Function for exponentiation
 
 def exponent(a, b):
 
     return a ** b
 
-# Function to display calculator menu
 
 def display_menu():
 
@@ -138,7 +132,6 @@ def display_menu():
 
     print("7. Quit")
 
-# Main program
 
 def main():
 
@@ -212,6 +205,5 @@ def main():
 
             print("Invalid choice. Please select an option between 1 and 7.")
 
-# Run the calculator
 
 main()

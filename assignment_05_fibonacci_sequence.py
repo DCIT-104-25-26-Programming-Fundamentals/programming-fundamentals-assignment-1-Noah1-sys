@@ -49,7 +49,6 @@
 # YOUR CODE BELOW — remove the # symbols from the scaffold and fill it in
 # =============================================================================
 
-# PART A: Print the first N Fibonacci terms
 
 
 def generate_fibonacci(n):
@@ -80,7 +79,6 @@ def generate_fibonacci(n):
 
 
 
-# PART B: Check if a number is a Fibonacci number
 
 
 def check_fibonacci(number):
@@ -116,7 +114,6 @@ def check_fibonacci(number):
 
 def main():
 
-    # Part A
 
     n = int(input("How many terms? "))
 
@@ -124,12 +121,10 @@ def main():
 
     print()
 
-    # Part B
 
     number = int(input("Enter a number to check: "))
 
     check_fibonacci(number)
 
-# Run the program
 
 main()

@@ -86,12 +86,6 @@ tasks = [
     "Watch a movie"
 ]
 
-# -------------------------------------------------
-
-# Function to add a task
-
-# -------------------------------------------------
-
 def add_task():
 
     task = input("Enter task: ")
@@ -100,11 +94,7 @@ def add_task():
 
     print(f'Task added: "{task}"')
 
-# -------------------------------------------------
 
-# Function to view all tasks
-
-# -------------------------------------------------
 
 def view_tasks():
 
@@ -120,11 +110,6 @@ def view_tasks():
 
         print(f"{i + 1}. {tasks[i]}")
 
-# -------------------------------------------------
-
-# Function to delete a task
-
-# -------------------------------------------------
 
 def delete_task():
 
@@ -148,11 +133,6 @@ def delete_task():
 
         print(f'Task "{removed_task}" has been removed.')
 
-# -------------------------------------------------
-
-# Function to display menu
-
-# -------------------------------------------------
 
 def display_menu():
 
@@ -172,9 +152,6 @@ def display_menu():
 
     print("4. Quit")
 
-# -------------------------------------------------
-
-# Main Program
 
 def main():
 
@@ -206,6 +183,5 @@ def main():
 
             print("Invalid choice. Please select a number from 1-4.")
 
-# Run program
 
 main()
